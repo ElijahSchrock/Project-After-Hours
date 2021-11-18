@@ -1,0 +1,129 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+body {
+  background-color: rgb(50, 50, 230);
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  border-right: solid 1px black ;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.buy-more {
+  font-size: 25px;
+  border: solid 1px black;
+  padding-left: 10px;
+  border-radius: 35%;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+.container1 div {
+  padding: 10px;
+  /* border: solid 1px black; */
+  flex-direction: row;
+}
+
+.sub-cont {
+  margin-top: 75px;
+}
+
+.sub-cont div {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-box {
+  background-color: black;
+  flex: 1;
+  width: 75%;
+  height: 300px;
+  margin-top: 3.5%;
+  margin-bottom: 5%;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+}
+
+.container2 div {
+  padding: 10px;
+  border: solid 1px black;
+  flex-direction: row;
+}
+
+.box1 {
+ background-color: black;
+  flex: 1;
+  height: 80px;
+  width: 80px;
+  margin-left: .5%;
+  margin-right: .5%;
+
+}
+
+.box2 {
+ background-color: black;
+  flex: 1;
+  height: 80px;
+  width: 80px;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+
+.box3 {
+ background-color: black;
+  flex: 1;
+  height: 80px;
+  width: 80px;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+.box4 {
+  background-color: black;
+   flex: 1;
+   height: 80px;
+   width: 80px;
+   margin-left: .5%;
+   margin-right: .5%;
+}
+.box5 {
+  background-color: black;
+   flex: 1;
+   height: 80px;
+   width: 80px;
+   margin-left: .5%;
+   margin-right: .5%;
+}
+.box6 {
+  background-color: black;
+   flex: 1;
+   height: 80px;
+   width: 80px;
+   margin-left: .5%;
+   margin-right: .5%;
+}
